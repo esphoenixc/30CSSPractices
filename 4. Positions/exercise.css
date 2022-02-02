@@ -8,20 +8,20 @@ nav {
   justify-content: center;
   padding: 15px 0;
   /* position ?  */
-
+  position: fixed;
 }
 
 /* Exercise 2 */
 /* Open "exercise2.html" then find out how to perfectly center the ".square" div in ".box". (on X and Y) */
 
 .box {
-
+  position: relative;
 }
 
 .square {
   background: violet;
+  position: absolute;
 }
-
 
 /* Exercise 3 */
 /* You have to place what are called "floating buttons".
@@ -31,24 +31,33 @@ Use an offset of "15px" each time, so they don't stick to the edges.
 */
 
 .floating-btn {
-
+  position: relative;
 }
 .b1 {
-
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .b2 {
-
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .b3 {
-
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .b4 {
-
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* exercise 4 */
 /* Try to shift the ".home-content" div by 100px from the top while remaining in the document flow. */
 
 .home-content {
-
+  position: relative;
+  top: 100px;
 }

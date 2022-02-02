@@ -9,3 +9,70 @@ body {
   background: #f1f1f1;
   font-family: roboto, sans-serif;
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./ressources/citynight.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul li {
+  color: #f1f1f1;
+  margin: 10px;
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.title {
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.title strong {
+  color: #f1f1f1;
+  font-size: 100px;
+}
+
+.title h3 {
+  color: #f1f1f1;
+  font-size: 40px;
+}
+
+.start-live-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.streaming {
+  margin-left: auto;
+  width: 30px;
+  height: 30px;
+}
+
+.chevron {
+  width: 50px;
+  height: 50px;
+}
+
+.more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

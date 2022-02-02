@@ -1,43 +1,49 @@
 /* Use Flexbox to resolve those problems linked with a Navbar component. */
 
-
-
 /* Nav #1 */
 /* Center the Navlinks on X (horizontally) */
-
-
-
-
-
+.nav-1 {
+  display: flex;
+  justify-content: center;
+}
 
 /* Nav #2 */
 /* Center on Y and display the buttons on the right */
+.nav-2 {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
 
-
-
-
-
-
+.sign-in-btn {
+  margin-left: auto;
+}
 
 /* Nav #3 */
 /* Center on Y then put the icon on the left and the links on the right */
+.nav-3 {
+  display: flex;
+  align-items: center;
+}
 
-
-
-
-
-
-
-
+.nav-3 img {
+  margin-right: auto;
+}
 
 /* Nav #4 */
 /* Center on Y then put the Saturn icon in the middle and the links on the left */
+.nav-4 {
+  display: flex;
+  align-items: center;
+}
 
+.nav-4 .links-container {
+  width: 50%;
+}
 
-
-
-
-
+.empty-layout {
+  width: 50%;
+}
 
 /* Nav #5 */
 /* Center the elements on Y */
@@ -45,4 +51,9 @@
 /* Display the cat's paw on the left */
 /* Display the three icons on the right */
 
-
+.nav-5 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
