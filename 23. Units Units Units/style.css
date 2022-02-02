@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*1. How to make the site accessible for people who zoom through browser settings? */
+
+html {
+
+}
+
+
+body {
+  /* 2. Give the Body the full height of the screen, whatever happens and without being relative to anything other than the screen */
+  font-family: sans-serif;
+
+}
+
+/* 3. Make sure the header always has 10% padding and 8% bottom margin relative to the smallest side of the window.
+*/
+
+header {
+  background: lightsalmon;
+  color: #222;
+  text-align: center;
+  font-size: 4rem;
+
+}
+
+/* 4. Make the h1 always have a font-size of 5% of the screen width */
+h1 {
+  text-align: center;
+
+}
+
+/* 5. All texts in ".content" must refer to the font-size of ".content". */
+/* h2 font-size must be 40px */
+/* span font-size  must be 16px */
+/* p must font-size  be 20px */
+
+.content {
+  font-size: ;
+  max-width: 90rem;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  background: salmon;
+}
+.content h2 {
+  font-size: ;
+}
+.content span {
+  font-size: ;
+}
+.content p {
+  font-size: ;
+}

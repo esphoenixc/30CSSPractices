@@ -1,0 +1,37 @@
+/* Exercise #1 */
+/* Put the correct display on the <p> children of .box1 so that they line up.*/
+
+
+.box1 p {
+  
+}
+
+
+
+/* Exercise #2 */ 
+/* Give the correct display to the <span> of .box2 so that it can rotate 45deg without taking the full width of its parent. */
+
+
+
+.box2 span {
+    transform: rotate(45deg); /* Why it does not work like that ? Try to find out. */
+
+}
+
+
+/* Exercise #3 */
+/* Use flexbox with the ".flex-container" div, but the container should only take the width of the content it contains. */
+
+.flex-container {
+    
+}
+
+
+
+/* Exercise #4 */
+/* Align the three orange divs while keeping the possibility of putting a width and a height. */
+
+
+.square {
+   
+}

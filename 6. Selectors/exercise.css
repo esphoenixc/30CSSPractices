@@ -1,0 +1,72 @@
+/* 1. Select only the elements which have the classes "title" AND "main-title" at the same time and give them a background "khaki" */
+
+
+
+
+
+/* 2. Select only the h2 which directly descend from an element with the ".content" class and give them the color "red" */
+
+/* > + ~ */
+
+
+
+
+
+
+/* 3. Select all the elements which contain the "txt" class and all the elements which contain the "article-link" class at the same time, and give them the color "darkcyan" */
+
+/* , act like "and" */
+
+
+
+/* 4. Select only the button which contains the "modify-btn" class and which is directly preceded by the button containing the "delete-btn" class and give it a "hotpink" background */
+
+
+
+
+
+
+/* 5. Select the inputs which contain the type = "text" attribute and give them a "slateblue" background */
+
+
+
+
+
+
+
+
+/* 6. Change the background color of the form to "lightblue" only when one of the children receives the focus */
+
+
+
+
+
+
+
+/* 7. Select the 4th item from the list and give it a "seagreen" background */
+
+
+
+
+
+
+/* 8. Select all li except the 5th and give them a "midnightblue" background */
+
+
+
+
+
+
+/* 9. Select only links pointing to secure sites (https) and give them a "plum" background */
+
+
+
+
+
+
+
+
+/* 10. Give a "crimson" background color to the first line of the last paragraph and increase the size of its first letter to 50px */
+
+/* You need to make two selections */
+

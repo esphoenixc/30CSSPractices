@@ -1,0 +1,37 @@
+/* exercise 1 */
+/* It's happening in HTML! */
+
+
+
+
+/* exercise 2 */
+/* How to limit the width of this card to 1100px maximum and 300px minimum without media queries? */
+
+
+.card {
+  background: linear-gradient(45deg, violet, rgb(177, 27, 177));
+  padding: 30px;
+  margin: 0 auto;
+}
+.card p {
+  margin-top: 5px;
+}
+
+
+
+/* exercise 3 */
+
+
+/* A. Use a media queries to give a width of 600px to this input only when the screen width is greater than 800px and less than 1300px.*/
+
+.txt-input {
+  padding: 5px;
+  font-size: 18px;
+  display: block;
+  margin: 50px auto 0;
+}
+
+
+
+/* B.  Give a "crimson" background color to the input only when the viewport orientation is in "portrait" mode */
+

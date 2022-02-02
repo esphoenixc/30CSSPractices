@@ -1,0 +1,54 @@
+/* Exercise 1 */
+/* Open "exercise1.html" on a browser and then change the position of the nav so that it follows the screen when scrolling  */
+
+nav {
+  width: 100%;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  /* position ?  */
+
+}
+
+/* Exercise 2 */
+/* Open "exercise2.html" then find out how to perfectly center the ".square" div in ".box". (on X and Y) */
+
+.box {
+
+}
+
+.square {
+  background: violet;
+}
+
+
+/* Exercise 3 */
+/* You have to place what are called "floating buttons".
+That is to say buttons which will float at a given point.
+So place these four buttons according to the text they contain.
+Use an offset of "15px" each time, so they don't stick to the edges.
+*/
+
+.floating-btn {
+
+}
+.b1 {
+
+}
+.b2 {
+
+}
+.b3 {
+
+}
+.b4 {
+
+}
+
+/* exercise 4 */
+/* Try to shift the ".home-content" div by 100px from the top while remaining in the document flow. */
+
+.home-content {
+
+}

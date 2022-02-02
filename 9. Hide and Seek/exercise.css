@@ -1,0 +1,23 @@
+/* Hide the first paragraph by ensuring that it always occupies the space allocated to it and leaving it accessible (click, screen reader ...) * /
+
+/ * You can test the click on the paragraphs thanks to the script at the bottom of the index.html */
+
+.p1 {
+
+}
+
+
+/* Hide the second paragraph without making it accessible. */
+
+
+.p2 {
+  
+}
+
+
+/* Hide the third paragraph by making sure that it does not take up any more space, that it cannot be clicked on and that it is no longer accessible. */
+
+
+.p3 {
+ 
+}
